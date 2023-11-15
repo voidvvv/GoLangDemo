@@ -1,2 +1,3 @@
-nothing!
-just practice
+command:
+
+go run .
