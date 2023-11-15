@@ -22,6 +22,9 @@ func main(){
 
 	// 尝试调用别的文件的方法
 	fmt.Println(Max(1,2));
+
+	// 循环
+	loopTest(50);
 }
 
 // 自己定义函数
