@@ -2,6 +2,7 @@ package main // 必须有一个main package，GO 会在main package中寻找main
 
 import ( // 多重import
 	"fmt" // import的内容需要加引号
+
 )
 
 // 主函数
@@ -37,6 +38,8 @@ func main(){
 
 	p.sayHi();
 	p.sayName();
+
+	service.Search(10086);
 }
 
 // 自己定义函数

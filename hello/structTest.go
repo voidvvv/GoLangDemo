@@ -30,3 +30,5 @@ func objTest(){
 	fmt.Println(p); // 测试直接打印对象
 	fmt.Println(p2);
 }
+
+// 尝试结构体继承
