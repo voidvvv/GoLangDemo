@@ -39,7 +39,7 @@ func main(){
 	p.sayHi();
 	p.sayName();
 
-	service.Search(10086);
+	// service.Search(10086);
 }
 
 // 自己定义函数
