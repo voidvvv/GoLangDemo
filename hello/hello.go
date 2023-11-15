@@ -1,7 +1,7 @@
-package main
+package main // 必须有一个main package，GO 会在main package中寻找main函数来启动，没有的话会被报错
 
-import (
-	"fmt"
+import ( // 多重import
+	"fmt" // import的内容需要加引号
 )
 
 // 主函数
@@ -19,6 +19,9 @@ func main(){
 	var x,y,z =duplicate(); // 定义 x,y,z 三个变量
 	fmt.Println(x,y,z);
 	fmt.Println( duplicate()); // 实测打印多个返回值会空格分开
+
+	// 尝试调用别的文件的方法
+	fmt.Println(Max(1,2));
 }
 
 // 自己定义函数
