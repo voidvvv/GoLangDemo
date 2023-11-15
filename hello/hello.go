@@ -25,6 +25,18 @@ func main(){
 
 	// 循环
 	loopTest(50);
+
+	// 面向对象测试
+	objTest();
+
+	// 调用本包的类构造对象
+	// p := Player{"Player test",20}; 全参构造不需要指定参数名称
+	
+	p := Player{name:"Test Obj"}; // 部分构造需要指定字段名称
+	fmt.Println(p);
+
+	p.sayHi();
+	p.sayName();
 }
 
 // 自己定义函数
